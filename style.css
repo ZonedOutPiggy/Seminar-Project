@@ -1,8 +1,41 @@
 :root {
+    --bg-black: #0a0a0a;
+    --card-bg: #141414;
     --primary-purple: #8a2be2;
     --secondary-blue: #00d4ff;
-    --card-bg: #0a0a0a;
-    --text-gray: #b0b0b0;
+    --text-white: #ffffff;
+    --text-gray: #a0a0a0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+body {
+    background-color: var(--bg-black);
+    color: var(--text-white);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar & Logo */
+.navbar {
+    padding: 2rem 5%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--primary-purple);
 }
 
 .logo img {
@@ -29,7 +62,7 @@
 }
 
 h2 {
-    font-size: 10rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     background: linear-gradient(to right, var(--primary-purple), var(--secondary-blue));
     -webkit-background-clip: text;
