@@ -1,3 +1,10 @@
+:root {
+    --primary-purple: #8a2be2;
+    --secondary-blue: #00d4ff;
+    --card-bg: #0a0a0a;
+    --text-gray: #b0b0b0;
+}
+
 .logo img {
     height: 100px; /* Adjust based on your logo shape */
 }
