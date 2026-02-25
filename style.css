@@ -39,7 +39,7 @@ body {
 }
 
 .logo img {
-    height: 100px; /* Adjust based on your logo shape */
+    height: 150px; /* Adjust based on your logo shape */
 }
 
 /* Form Container */
@@ -63,7 +63,7 @@ body {
 
 h2 {
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background: linear-gradient(to right, var(--primary-purple), var(--secondary-blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
