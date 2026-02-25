@@ -22,7 +22,7 @@
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 10rem;
     margin-bottom: 10px;
     background: linear-gradient(to right, var(--primary-purple), var(--secondary-blue));
     -webkit-background-clip: text;
