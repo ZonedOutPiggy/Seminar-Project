@@ -31,24 +31,23 @@
                 </div>
 
                 <div class="input-group">
-                    <label for="os-template">OS Template</label>
-                    <select id="os-template">
-                        <option value="ubuntu-22.04">Ubuntu 22.04</option>
-                        <option value="debian-12">Debian 12</option>
-                        <option value="centos-9">CentOS Stream 9</option>
+                    <label for="ramAmount">Ram</label>
+                    <select id="ramAmount">
+                        <option value="4gb">4GB</option>
+                        <option value="6gb">6B</option>
+                        <option value="8gb">8GB</option>
+                        <option value="16gb">16GB</option>
+                        <option value="32gb">32GB</option>
                     </select>
                 </div>
 
-                <div class="form-row">
-                    <div class="input-group">
-                        <label for="cpu-cores">CPU Cores</label>
-                        <input type="number" id="cpu-cores" value="2" min="1">
-                    </div>
-                    <div class="input-group">
-                        <label for="ram-gb">RAM (GB)</label>
-                        <input type="number" id="ram-gb" value="4" min="1">
-                    </div>
-                </div>
+                 <div class="input-group">
+                    <label for="CoreAmount">Cores</label>
+                    <select id="ramAmount">
+                        <option value="4 Cores">4 Cores(Default)</option>
+                        <option value="8 Cores">8 Corest(Premium)</option>
+                    </select>
+                </div
 
                 <button type="submit" class="btn-primary">Provision VM</button>
             </form>
