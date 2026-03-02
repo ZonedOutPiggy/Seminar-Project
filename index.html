@@ -17,13 +17,16 @@
 
     <main class="hero-section">
         <div class="form-container">
-            <h2>Deploy New Instance</h2>
-            <p>Configure your VM parameters below.</p>
+            <h2>Deploy A New Server</h2>
+            <p>What VM Config do you want?</p>
             
             <form id="vm-form">
-                <div class="input-group">
-                    <label for="vm-name">VM Name</label>
-                    <input type="text" id="vm-name" placeholder="e.g. web-server-01" required>
+               <div class="input-group">
+                    <label for="gameType">Game</label>
+                    <select id="gameType">
+                        <option value="ubuntu-22.04">Mincraft</option>
+                        <option value="debian-12">Hytale</option>
+                    </select>
                 </div>
 
                 <div class="input-group">
